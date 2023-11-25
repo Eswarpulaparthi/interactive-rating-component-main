@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #141519;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.hero{
+    position: relative;
+    background-color: #1F2630;
+    height: 21rem;
+    width: 20rem;
+    padding: 22px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.rating{
+    top: 30px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.logo{
+    background-color: #262F38;
+    height: 35px;
+    width: 35px;
+    padding: 9px;
+    border-radius: 50%;
+}
+.active_h1{
+    color: #fff;
+    background-color: #1E252F;
+    margin: 10px 0;
+}
+.active_p{
+    color: #707682;
+    background-color: #1E252F;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+input[type="radio"] {
+    display: none;
+}
+  
+label {
+    width: 48px;
+    height: 48px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(216, 12%, 54%);
+    font-size: 16px;
+}
+  
+label:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+  
+input:checked ~ label {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.submit{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    width: 16rem;
+    height: 2.3rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+    transition: all 1s;
+}
+.submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: #fff;
+}
+
+
+.thank_logo{
+    margin: 10px 50px;
+}
+.thank_h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.thank_p{
+    background-color: #282e31;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    margin-left: 56px;
+    color: hsl(25, 97%, 53%);
+}
+.thank__2{
+    color: #707682;
+    text-align: center;
+}
+#left{
+    left: 25px;
+}
+#right{
+    left: 450px;
+}
